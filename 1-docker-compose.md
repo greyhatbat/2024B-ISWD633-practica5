@@ -33,6 +33,7 @@ Este comando descargará las imágenes necesarias, creará y ejecutará los cont
 Para ejecutar en modo "detached" (en segundo plano) se agrega la opción -d:
 ```
 docker compose up -d
+
 ```
 
 ### Ejecutar Docker compose para servicios que no se crearon correctamente
@@ -46,7 +47,9 @@ docker compose up -d <nombre servicio>
 docker compose ps
 ```
 ### COMPLETAR CON UNA CAPTURA DE PANTALLA DEL LISTADO DE LOS CONTENEDORES EN EJECUCIÓN
-
+```
+![contenedor_cap](imagenes/contenedores.png)
+```
 ### Detener y eliminar los contenedores definidos en el archivo
 ```
 docker compose down
